@@ -17,7 +17,7 @@ namespace Xamarin.Forms.Platform.iOS
 		{
 			Label = new UILabel(frame)
 			{
-				TextColor = ColorExtensions.LabelColor,
+				TextColor = ColorExtensions.Label,
 				Lines = 1,
 				Font = UIFont.PreferredBody,
 				TranslatesAutoresizingMaskIntoConstraints = false

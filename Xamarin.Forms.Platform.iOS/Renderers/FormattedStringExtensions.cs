@@ -26,7 +26,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			if (fgcolor.IsDefault)
 				fgcolor = defaultForegroundColor;
 			if (fgcolor.IsDefault)
-				fgcolor = ColorExtensions.LabelColor.ToColor();
+				fgcolor = ColorExtensions.Label.ToColor();
 
 #if __MOBILE__
 			return new NSAttributedString(span.Text, font == Font.Default ? null : font.ToUIFont(), fgcolor.ToUIColor(), 
@@ -111,7 +111,7 @@ namespace Xamarin.Forms.Platform.MacOS
 
 #if __MOBILE__
 			if (fgcolor.IsDefault)
-				fgcolor = ColorExtensions.LabelColor.ToColor();
+				fgcolor = ColorExtensions.Label.ToColor();
 			UIColor spanFgColor;
 			UIColor spanBgColor;
 			spanFgColor = fgcolor.ToUIColor();
@@ -119,7 +119,7 @@ namespace Xamarin.Forms.Platform.MacOS
 #else
 
 			if (fgcolor.IsDefault)
-				fgcolor = ColorExtensions.LabelColor.ToColor(NSColorSpace.GenericRGBColorSpace);
+				fgcolor = ColorExtensions.Label.ToColor(NSColorSpace.GenericRGBColorSpace);
 			NSColor spanFgColor;
 			NSColor spanBgColor;
 			spanFgColor = fgcolor.ToNSColor();

@@ -229,7 +229,7 @@ namespace Xamarin.Forms.Platform.iOS
 			{
 				_line = new UIView
 				{
-					BackgroundColor = ColorExtensions.OpaqueSeparatorColor,
+					BackgroundColor = ColorExtensions.OpaqueSeparator,
 					TranslatesAutoresizingMaskIntoConstraints = true,
 					Alpha = 0.2f
 				};

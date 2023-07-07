@@ -7,7 +7,7 @@ namespace Xamarin.Forms.Platform.iOS
 	public class TextCellRenderer : CellRenderer
 	{
 		readonly Color DefaultDetailColor = ColorExtensions.SecondaryLabelColor.ToColor();
-		readonly Color DefaultTextColor = ColorExtensions.LabelColor.ToColor();
+		readonly Color DefaultTextColor = ColorExtensions.Label.ToColor();
 
 		[Preserve(Conditional = true)]
 		public TextCellRenderer()

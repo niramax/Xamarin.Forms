@@ -8,7 +8,7 @@ namespace Xamarin.Forms.Platform.iOS
 {
 	public class EntryCellRenderer : CellRenderer
 	{
-		static readonly Color DefaultTextColor = ColorExtensions.LabelColor.ToColor();
+		static readonly Color DefaultTextColor = ColorExtensions.Label.ToColor();
 
 		[Preserve(Conditional = true)]
 		public EntryCellRenderer()
@@ -115,7 +115,7 @@ namespace Xamarin.Forms.Platform.iOS
 
 		static void UpdateLabelColor(EntryCellTableViewCell cell, EntryCell entryCell)
 		{
-			cell.TextLabel.TextColor = entryCell.LabelColor.ToUIColor(DefaultTextColor);
+			cell.TextLabel.TextColor = entryCell.Label.ToUIColor(DefaultTextColor);
 		}
 
 		static void UpdatePlaceholder(EntryCellTableViewCell cell, EntryCell entryCell)

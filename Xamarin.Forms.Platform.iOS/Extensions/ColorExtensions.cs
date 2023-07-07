@@ -23,12 +23,12 @@ namespace Xamarin.Forms.Platform.MacOS
 		internal static readonly UIColor Black = UIColor.Black;
 		internal static readonly UIColor SeventyPercentGrey = new UIColor(0.7f, 0.7f, 0.7f, 1);
 
-		internal static UIColor LabelColor
+		internal static UIColor Label
 		{
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.LabelColor;
+					return UIColor.Label;
 
 				return UIColor.Black;
 			}
@@ -39,7 +39,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.PlaceholderTextColor;
+					return UIColor.PlaceholderText;
 
 				return SeventyPercentGrey;
 			}
@@ -50,7 +50,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SecondaryLabelColor;
+					return UIColor.SecondaryLabel;
 
 				return new Color(.32, .4, .57).ToUIColor();
 			}
@@ -61,7 +61,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemBackgroundColor;
+					return UIColor.SystemBackground;
 
 				return UIColor.White;
 			}
@@ -72,18 +72,18 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SeparatorColor;
+					return UIColor.Separator;
 
 				return UIColor.Gray;
 			}
 		}
 
-		internal static UIColor OpaqueSeparatorColor
+		internal static UIColor OpaqueSeparator
 		{
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.OpaqueSeparatorColor;
+					return UIColor.OpaqueSeparator;
 
 				return UIColor.Black;
 			}
@@ -94,7 +94,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemGroupedBackgroundColor;
+					return UIColor.SystemGroupedBackground;
 
 				return new UIColor(247f / 255f, 247f / 255f, 247f / 255f, 1);
 			}
@@ -105,7 +105,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemBlueColor;
+					return UIColor.SystemBlue;
 
 				return Color.FromRgba(50, 79, 133, 255).ToUIColor();
 			}
@@ -116,7 +116,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemRedColor;
+					return UIColor.SystemRed;
 
 				return UIColor.FromRGBA(255, 0, 0, 255);
 			}
@@ -127,7 +127,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemGrayColor;
+					return UIColor.SystemGray;
 
 				return UIColor.Gray;
 			}
@@ -138,7 +138,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsiOS13OrNewer)
-					return UIColor.SystemGray2Color;
+					return UIColor.SystemGray2;
 				return UIColor.LightGray;
 
 			}
@@ -149,12 +149,12 @@ namespace Xamarin.Forms.Platform.MacOS
 		internal static readonly NSColor SeventyPercentGrey = NSColor.FromRgba(0.7f, 0.7f, 0.7f, 1);
 		internal static readonly NSColor AccentColor = Color.FromRgba(50, 79, 133, 255).ToNSColor();
 
-		internal static NSColor LabelColor
+		internal static NSColor Label
 		{
 			get
 			{
 				if (Forms.IsMojaveOrNewer)
-					return NSColor.LabelColor;
+					return NSColor.Label;
 
 				return NSColor.Black.UsingColorSpace("NSCalibratedRGBColorSpace");
 			}
@@ -198,7 +198,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsMojaveOrNewer)
-					return NSColor.PlaceholderTextColor;
+					return NSColor.PlaceholderText;
 
 				return SeventyPercentGrey;
 			}
@@ -209,7 +209,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsMojaveOrNewer)
-					return NSColor.SecondaryLabelColor;
+					return NSColor.SecondaryLabel;
 
 				return new Color(.32, .4, .57).ToNSColor();
 			}
@@ -220,7 +220,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			get
 			{
 				if (Forms.IsMojaveOrNewer)
-					return NSColor.SystemGrayColor;
+					return NSColor.SystemGray;
 
 				return Color.LightGray.ToNSColor();
 			}

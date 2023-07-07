@@ -256,7 +256,7 @@ namespace Xamarin.Forms.Platform.iOS
 
 	public sealed class FontImageSourceHandler : IImageSourceHandler
 	{
-		readonly Color _defaultColor = ColorExtensions.LabelColor.ToColor();
+		readonly Color _defaultColor = ColorExtensions.Label.ToColor();
 
 		[Preserve(Conditional = true)]
 		public FontImageSourceHandler()

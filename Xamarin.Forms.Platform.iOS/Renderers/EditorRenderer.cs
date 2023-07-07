@@ -358,7 +358,7 @@ namespace Xamarin.Forms.Platform.iOS
 			var textColor = Element.TextColor;
 
 			if (textColor.IsDefault)
-				TextView.TextColor = ColorExtensions.LabelColor;
+				TextView.TextColor = ColorExtensions.Label;
 			else
 				TextView.TextColor = textColor.ToUIColor();
 		}

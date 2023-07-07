@@ -389,73 +389,73 @@ namespace Xamarin.Forms
 					// This is just a change in Xamarin.iOS not UIKit
 #pragma warning disable CS0618 // Type or member is obsolete
 					case NamedPlatformColor.Label:
-						resultColor = UIColor.LabelColor;
+						resultColor = UIColor.Label;
 						break;
 					case NamedPlatformColor.Link:
-						resultColor = UIColor.LinkColor;
+						resultColor = UIColor.Link;
 						break;
 					case NamedPlatformColor.OpaqueSeparator:
-						resultColor = UIColor.OpaqueSeparatorColor;
+						resultColor = UIColor.OpaqueSeparator;
 						break;
 					case NamedPlatformColor.PlaceholderText:
-						resultColor = UIColor.PlaceholderTextColor;
+						resultColor = UIColor.PlaceholderText;
 						break;
 					case NamedPlatformColor.QuaternaryLabel:
-						resultColor = UIColor.QuaternaryLabelColor;
+						resultColor = UIColor.QuaternaryLabel;
 						break;
 					case NamedPlatformColor.SecondaryLabel:
-						resultColor = UIColor.SecondaryLabelColor;
+						resultColor = UIColor.SecondaryLabel;
 						break;
 					case NamedPlatformColor.Separator:
-						resultColor = UIColor.SeparatorColor;
+						resultColor = UIColor.Separator;
 						break;
 					case NamedPlatformColor.SystemBlue:
-						resultColor = UIColor.SystemBlueColor;
+						resultColor = UIColor.SystemBlue;
 						break;
 					case NamedPlatformColor.SystemGray:
-						resultColor = UIColor.SystemGrayColor;
+						resultColor = UIColor.SystemGray;
 						break;
 					case NamedPlatformColor.SystemGray2:
-						resultColor = UIColor.SystemGray2Color;
+						resultColor = UIColor.SystemGray2;
 						break;
 					case NamedPlatformColor.SystemGray3:
-						resultColor = UIColor.SystemGray3Color;
+						resultColor = UIColor.SystemGray3;
 						break;
 					case NamedPlatformColor.SystemGray4:
-						resultColor = UIColor.SystemGray4Color;
+						resultColor = UIColor.SystemGray4;
 						break;
 					case NamedPlatformColor.SystemGray5:
-						resultColor = UIColor.SystemGray5Color;
+						resultColor = UIColor.SystemGray5;
 						break;
 					case NamedPlatformColor.SystemGray6:
-						resultColor = UIColor.SystemGray6Color;
+						resultColor = UIColor.SystemGray6;
 						break;
 					case NamedPlatformColor.SystemGreen:
-						resultColor = UIColor.SystemGreenColor;
+						resultColor = UIColor.SystemGreen;
 						break;
 					case NamedPlatformColor.SystemIndigo:
-						resultColor = UIColor.SystemIndigoColor;
+						resultColor = UIColor.SystemIndigo;
 						break;
 					case NamedPlatformColor.SystemOrange:
-						resultColor = UIColor.SystemOrangeColor;
+						resultColor = UIColor.SystemOrange;
 						break;
 					case NamedPlatformColor.SystemPink:
-						resultColor = UIColor.SystemPinkColor;
+						resultColor = UIColor.SystemPink;
 						break;
 					case NamedPlatformColor.SystemPurple:
-						resultColor = UIColor.SystemPurpleColor;
+						resultColor = UIColor.SystemPurple;
 						break;
 					case NamedPlatformColor.SystemRed:
-						resultColor = UIColor.SystemRedColor;
+						resultColor = UIColor.SystemRed;
 						break;
 					case NamedPlatformColor.SystemTeal:
-						resultColor = UIColor.SystemTealColor;
+						resultColor = UIColor.SystemTeal;
 						break;
 					case NamedPlatformColor.SystemYellow:
-						resultColor = UIColor.SystemYellowColor;
+						resultColor = UIColor.SystemYellow;
 						break;
 					case NamedPlatformColor.TertiaryLabel:
-						resultColor = UIColor.TertiaryLabelColor;
+						resultColor = UIColor.TertiaryLabel;
 						break;
 #pragma warning restore CS0618 // Type or member is obsolete
 					default:
@@ -478,7 +478,7 @@ namespace Xamarin.Forms
 							break;
 					case NamedPlatformColor.ControlAccent:
 						if (IsMojaveOrNewer)
-							resultColor = NSColor.ControlAccentColor;
+							resultColor = NSColor.ControlAccent;
 						break;
 					case NamedPlatformColor.ControlBackgroundColor:
 						resultColor = NSColor.ControlBackground;
@@ -494,7 +494,7 @@ namespace Xamarin.Forms
 						break;
 					case NamedPlatformColor.FindHighlightColor:
 						if (IsHighSierraOrNewer)
-							resultColor = NSColor.FindHighlightColor;
+							resultColor = NSColor.FindHighlight;
 						break;
 					case NamedPlatformColor.GridColor:
 						resultColor = NSColor.Grid;
@@ -508,23 +508,23 @@ namespace Xamarin.Forms
 					case NamedPlatformColor.KeyboardFocusIndicatorColor:
 						resultColor = NSColor.KeyboardFocusIndicator;
 						break;
-					case NamedPlatformColor.LabelColor:
-						resultColor = NSColor.LabelColor;
+					case NamedPlatformColor.Label:
+						resultColor = NSColor.Label;
 						break;
-					case NamedPlatformColor.LinkColor:
-						resultColor = NSColor.LinkColor;
+					case NamedPlatformColor.Link:
+						resultColor = NSColor.Link;
 						break;
-					case NamedPlatformColor.PlaceholderTextColor:
-						resultColor = NSColor.PlaceholderTextColor;
+					case NamedPlatformColor.PlaceholderText:
+						resultColor = NSColor.PlaceholderText;
 						break;
 					case NamedPlatformColor.QuaternaryLabelColor:
-						resultColor = NSColor.QuaternaryLabelColor;
+						resultColor = NSColor.QuaternaryLabel;
 						break;
 					case NamedPlatformColor.SecondaryLabelColor:
-						resultColor = NSColor.SecondaryLabelColor;
+						resultColor = NSColor.SecondaryLabel;
 						break;
 					case NamedPlatformColor.SelectedContentBackgroundColor:
-						resultColor = NSColor.SelectedContentBackgroundColor;
+						resultColor = NSColor.SelectedContentBackground;
 						break;
 					case NamedPlatformColor.SelectedControlColor:
 						resultColor = NSColor.SelectedControl;
@@ -542,13 +542,13 @@ namespace Xamarin.Forms
 						resultColor = NSColor.SelectedText;
 						break;
 					case NamedPlatformColor.SeparatorColor:
-						resultColor = NSColor.SeparatorColor;
+						resultColor = NSColor.Separator;
 						break;
 					case NamedPlatformColor.ShadowColor:
 						resultColor = NSColor.Shadow;
 						break;
 					case NamedPlatformColor.TertiaryLabelColor:
-						resultColor = NSColor.TertiaryLabelColor;
+						resultColor = NSColor.TertiaryLabel;
 						break;
 					case NamedPlatformColor.TextBackgroundColor:
 						resultColor = NSColor.TextBackground;
@@ -557,19 +557,19 @@ namespace Xamarin.Forms
 						resultColor = NSColor.Text;
 						break;
 					case NamedPlatformColor.UnderPageBackgroundColor:
-						resultColor = NSColor.UnderPageBackgroundColor;
+						resultColor = NSColor.UnderPageBackground;
 						break;
 					case NamedPlatformColor.UnemphasizedSelectedContentBackgroundColor:
 						if (IsMojaveOrNewer)
-							resultColor = NSColor.UnemphasizedSelectedContentBackgroundColor;
+							resultColor = NSColor.UnemphasizedSelectedContentBackground;
 						break;
 					case NamedPlatformColor.UnemphasizedSelectedTextBackgroundColor:
 						if (IsMojaveOrNewer)
-							resultColor = NSColor.UnemphasizedSelectedTextBackgroundColor;
+							resultColor = NSColor.UnemphasizedSelectedTextBackground;
 						break;
 					case NamedPlatformColor.UnemphasizedSelectedTextColor:
 						if (IsMojaveOrNewer)
-							resultColor = NSColor.UnemphasizedSelectedTextColor;
+							resultColor = NSColor.UnemphasizedSelectedText;
 						break;
 					case NamedPlatformColor.WindowBackgroundColor:
 						resultColor = NSColor.WindowBackground;
@@ -578,56 +578,56 @@ namespace Xamarin.Forms
 						resultColor = NSColor.WindowFrameText;
 						break;
 					case NamedPlatformColor.Label:
-						resultColor = NSColor.LabelColor;
+						resultColor = NSColor.Label;
 						break;
 					case NamedPlatformColor.Link:
-						resultColor = NSColor.LinkColor;
+						resultColor = NSColor.Link;
 						break;
 					case NamedPlatformColor.PlaceholderText:
-						resultColor = NSColor.PlaceholderTextColor;
+						resultColor = NSColor.PlaceholderText;
 						break;
 					case NamedPlatformColor.QuaternaryLabel:
-						resultColor = NSColor.QuaternaryLabelColor;
+						resultColor = NSColor.QuaternaryLabel;
 						break;
 					case NamedPlatformColor.SecondaryLabel:
-						resultColor = NSColor.SecondaryLabelColor;
+						resultColor = NSColor.SecondaryLabel;
 						break;
 					case NamedPlatformColor.Separator:
 						if (IsMojaveOrNewer)
-							resultColor = NSColor.SeparatorColor;
+							resultColor = NSColor.Separator;
 						break;
 					case NamedPlatformColor.SystemBlue:
-						resultColor = NSColor.SystemBlueColor;
+						resultColor = NSColor.SystemBlue;
 						break;
 					case NamedPlatformColor.SystemGray:
-						resultColor = NSColor.SystemGrayColor;
+						resultColor = NSColor.SystemGray;
 						break;
 					case NamedPlatformColor.SystemGreen:
-						resultColor = NSColor.SystemGreenColor;
+						resultColor = NSColor.SystemGreen;
 						break;
 					case NamedPlatformColor.SystemIndigo:
-						resultColor = NSColor.SystemIndigoColor;
+						resultColor = NSColor.SystemIndigo;
 						break;
 					case NamedPlatformColor.SystemOrange:
-						resultColor = NSColor.SystemOrangeColor;
+						resultColor = NSColor.SystemOrange;
 						break;
 					case NamedPlatformColor.SystemPink:
-						resultColor = NSColor.SystemPinkColor;
+						resultColor = NSColor.SystemPink;
 						break;
 					case NamedPlatformColor.SystemPurple:
-						resultColor = NSColor.SystemPurpleColor;
+						resultColor = NSColor.SystemPurple;
 						break;
 					case NamedPlatformColor.SystemRed:
-						resultColor = NSColor.SystemRedColor;
+						resultColor = NSColor.SystemRed;
 						break;
 					case NamedPlatformColor.SystemTeal:
-						resultColor = NSColor.SystemTealColor;
+						resultColor = NSColor.SystemTeal;
 						break;
 					case NamedPlatformColor.SystemYellow:
-						resultColor = NSColor.SystemYellowColor;
+						resultColor = NSColor.SystemYellow;
 						break;
 					case NamedPlatformColor.TertiaryLabel:
-						resultColor = NSColor.TertiaryLabelColor;
+						resultColor = NSColor.TertiaryLabel;
 						break;
 					default:
 						resultColor = NSColor.FromName(name);
