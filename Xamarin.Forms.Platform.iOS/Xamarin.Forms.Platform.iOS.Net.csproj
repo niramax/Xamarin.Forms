@@ -38,6 +38,7 @@
     </NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalSuppressions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextActionCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContextScrollViewDelegate.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GlobalCloseContextGestureRecognizer.cs" />
