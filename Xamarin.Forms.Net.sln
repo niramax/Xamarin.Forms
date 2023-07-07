@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Core", "Xamarin.Forms.Core\Xamarin.Forms.Core.csproj", "{8610EB80-1CA8-4745-B402-DF610DF006DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Platform.iOS.Net", "Xamarin.Forms.Platform.iOS\Xamarin.Forms.Platform.iOS.Net.csproj", "{271193C1-6E7C-429C-A36D-3F1BE5267231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{8610EB80-1CA8-4745-B402-DF610DF006DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8610EB80-1CA8-4745-B402-DF610DF006DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8610EB80-1CA8-4745-B402-DF610DF006DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271193C1-6E7C-429C-A36D-3F1BE5267231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271193C1-6E7C-429C-A36D-3F1BE5267231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271193C1-6E7C-429C-A36D-3F1BE5267231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271193C1-6E7C-429C-A36D-3F1BE5267231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
