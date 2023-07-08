@@ -16,6 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Update versions
+      env:
+        VERSION_PREFIX: 5.0.0
+        VERSION_SUFFIX: ${{github.run_number}}
+      run: |
+        VERSION=$VERSION_PREFIX.$VERSION_SUFFIX
+        sed -i bak2 "s:version=\"5.0.0\":version=\"$VERSION\":g" .nuspec/Niramax.Forms.nuspec
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
