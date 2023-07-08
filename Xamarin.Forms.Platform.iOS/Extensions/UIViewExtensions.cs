@@ -134,7 +134,7 @@ namespace Xamarin.Forms.Platform.MacOS
 					}
 				}
 #if __MOBILE__
-				catch (Foundation.MonoTouchException ex)
+				catch (ObjCRuntime.ObjCException ex)
 				{
 					nativePropertyListener = null;
 					if (ex.Name == "NSUnknownKeyException")

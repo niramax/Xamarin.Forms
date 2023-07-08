@@ -388,7 +388,7 @@ namespace Xamarin.Forms.Platform.iOS
 					var defaultContext = base.GetInvalidationContext(preferredAttributes, originalAttributes);
 					return defaultContext;
 				}
-				catch (MonoTouchException ex) when (ex.Name == "NSRangeException") 
+				catch (ObjCRuntime.ObjCException ex) when (ex.Name == "NSRangeException") 
 				{
 					Log.Warning("ItemsViewLayout", ex.ToString());
 				}
