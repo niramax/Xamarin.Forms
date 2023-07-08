@@ -404,12 +404,12 @@ namespace Xamarin.Forms.Platform.iOS
 			if (!isDefaultColor)
 				_barTextColorWasSet = true;
 
-			var attributes = new UITextAttributes();
+			var attributes = new UIStringAttributes();
 
 			if (isDefaultColor)
-				attributes.TextColor = _defaultBarTextColor;
+				attributes.ForegroundColor = _defaultBarTextColor;
 			else
-				attributes.TextColor = barTextColor.ToUIColor();
+				attributes.ForegroundColor = barTextColor.ToUIColor();
 
 			foreach (UITabBarItem item in TabBar.Items)
 			{
