@@ -34,4 +34,8 @@ jobs:
     - name: Build
       run: dotnet build --no-restore -c Release Xamarin.Forms.Net.sln
     - name: Pack
-      run: nuget pack ./.nuspec/Niramax.Forms.nuspec
+      run: nuget pack ./.nuspec/Niramax.Forms.nuspec -OutputDirectory PackageOut
+    - name: Upload package
+      uses: actions/upload-artifact@master
+      with:
+        path: PackageOut
