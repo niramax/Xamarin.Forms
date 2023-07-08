@@ -5,7 +5,7 @@
     <AssemblyName>Xamarin.Forms.Platform.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFrameworks>net7.0-ios</TargetFrameworks>
+    <TargetFrameworks>net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
     <ProjectGuid>{271193C1-6E7C-429C-A36D-3F1BE5267231}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Xamarin.Forms.Platform.iOS</RootNamespace>
@@ -84,7 +84,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\LabelRenderer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\ListViewRenderer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\NavigationRenderer.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Renderers\OpenGLViewRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\OpenGLViewRenderer.cs" Condition=" '$(TargetFramework)' == 'net7.0-ios' " />
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\PageRenderer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\PickerRenderer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Renderers\ProgressBarRenderer.cs" />
