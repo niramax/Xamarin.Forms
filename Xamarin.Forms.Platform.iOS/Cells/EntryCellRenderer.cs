@@ -115,7 +115,7 @@ namespace Xamarin.Forms.Platform.iOS
 
 		static void UpdateLabelColor(EntryCellTableViewCell cell, EntryCell entryCell)
 		{
-			cell.TextLabel.TextColor = entryCell.Label.ToUIColor(DefaultTextColor);
+			cell.TextLabel.TextColor = entryCell.LabelColor.ToUIColor(DefaultTextColor);
 		}
 
 		static void UpdatePlaceholder(EntryCellTableViewCell cell, EntryCell entryCell)
