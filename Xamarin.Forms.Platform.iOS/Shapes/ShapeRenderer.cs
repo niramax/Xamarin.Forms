@@ -414,7 +414,7 @@ namespace Xamarin.Forms.Platform.MacOS
                         break;
 
                     case Stretch.Uniform:
-                        nfloat minScale = NMath.Min(widthScale, heightScale);
+                        nfloat minScale = ObjCRuntime.NMath.Min(widthScale, heightScale);
 
                         stretchTransform.Scale(minScale, minScale);
 
@@ -426,7 +426,7 @@ namespace Xamarin.Forms.Platform.MacOS
                         break;
 
                     case Stretch.UniformToFill:
-                        nfloat maxScale = NMath.Max(widthScale, heightScale);
+                        nfloat maxScale = ObjCRuntime.NMath.Max(widthScale, heightScale);
 
                         stretchTransform.Scale(maxScale, maxScale);
 
@@ -441,8 +441,8 @@ namespace Xamarin.Forms.Platform.MacOS
             }
             else
             {
-                nfloat adjustX = NMath.Min(0, _pathStrokeBounds.X);
-                nfloat adjustY = NMath.Min(0, _pathStrokeBounds.Y);
+                nfloat adjustX = ObjCRuntime.NMath.Min(0, _pathStrokeBounds.X);
+                nfloat adjustY = ObjCRuntime.NMath.Min(0, _pathStrokeBounds.Y);
 
                 if (adjustX < 0 || adjustY < 0)
                 {
