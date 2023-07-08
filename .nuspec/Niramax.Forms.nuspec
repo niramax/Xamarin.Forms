@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Niramax.Forms</id>
-    <version>7.0.0</version>
+    <version>5.0.0</version>
     <authors>praeclarum</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -18,7 +18,14 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Xamarin.Forms.Platform.iOS\bin\Debug\net7.0-ios\Xamarin.Forms.Platform.iOS.dll" target="lib\net7.0-ios13.1\Xamarin.Forms.Platform.iOS.dll" />
-    <file src="Xamarin.Forms.Platform.iOS\bin\Debug\net7.0-maccatalyst\Xamarin.Forms.Platform.iOS.dll" target="lib\net7.0-maccatalyst13.1\Xamarin.Forms.Platform.iOS.dll" />
+    <file src="..\Xamarin.Forms.Core\bin\Release\netstandard2.0\Xamarin.Forms.Core.dll" target="lib\net7.0-ios13.1" />
+    <file src="..\Xamarin.Forms.Core\bin\Release\netstandard2.0\Xamarin.Forms.Core.*pdb" target="lib\net7.0-ios13.1" />
+    <file src="..\Xamarin.Forms.Platform.iOS\bin\Release\net7.0-ios\Xamarin.Forms.Platform.iOS.dll" target="lib\net7.0-ios13.1" />
+    <file src="..\Xamarin.Forms.Platform.iOS\bin\Release\net7.0-ios\Xamarin.Forms.Platform.iOS.*pdb" target="lib\net7.0-ios13.1" />
+
+    <file src="..\Xamarin.Forms.Core\bin\Release\netstandard2.0\Xamarin.Forms.Core.dll" target="lib\net7.0-maccatalyst13.1" />
+    <file src="..\Xamarin.Forms.Core\bin\Release\netstandard2.0\Xamarin.Forms.Core.*pdb" target="lib\net7.0-maccatalyst13.1" />
+    <file src="..\Xamarin.Forms.Platform.iOS\bin\Release\net7.0-maccatalyst\Xamarin.Forms.Platform.iOS.dll" target="lib\net7.0-maccatalyst13.1" />
+    <file src="..\Xamarin.Forms.Platform.iOS\bin\Release\net7.0-maccatalyst\Xamarin.Forms.Platform.iOS.*pdb" target="lib\net7.0-maccatalyst13.1" />
   </files>
 </package>
